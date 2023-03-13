@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: self-hosted
+  vmImage: MyOwnAgent
   demands: myagent
 
 steps:
