@@ -7,8 +7,8 @@ trigger:
 - master
 
 pool:
-  vmImage: MyOwnAgent
-  demands: myagent
+  vmImage: self-hosted
+  demands: MyOwnAgent
 
 steps:
 - task: Maven@3
